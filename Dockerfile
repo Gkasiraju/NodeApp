@@ -7,7 +7,7 @@ LABEL maintainer "kasirajugudla452@gmail.com"
 # set a health check
 HEALTHCHECK --interval=5s \
             --timeout=5s \
-            CMD curl -f http://35.238.138.203:8000 || exit 1
+            CMD curl -f http://34.75.179.130:8000 || exit 1
 
 # tell docker what port to expose
 EXPOSE 8000
