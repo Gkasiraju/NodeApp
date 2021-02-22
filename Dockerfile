@@ -7,7 +7,7 @@ LABEL maintainer kasi123
 # set a health check
 HEALTHCHECK --interval=5s \
             --timeout=5s \
-            CMD curl -f http://34.121.172.109:8000 || exit 1
+            CMD curl -f http://35.222.133.211:8000 || exit 1
 
 # tell docker what port to expose
 EXPOSE 8000
